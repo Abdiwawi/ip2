@@ -3,5 +3,45 @@
   background-size: cover;
   color: white;
 }
-
+.course .row{
+margin: 0;
+padding: 0;
+}
+.hour{
+  padding:0;
+  height: 200px;
+}
+.happy{
+    position: relative;
+    height:50%;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 25px;
+    padding: 40px;
+  }
+  .party{
+    position: relative;
+    height:50%;
+    background: orangered;
+    color: #000;
+    font-size: 25px;
+    padding: 40px;
+  }
+  .break{
+    position: relative;
+    height: 220px;
+  }
+.foood div{
+  color: grey;
+  padding: 70px;
+  font-size: 25px;
+}
+.b{
+  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+}
+.l{
+  background-image: url("../ip2/assets/foodtop/lunch.jpg");
+}
+.d{
+  background-image: url("../ip2/assets/foodtop/dinner.jpg");
 }
