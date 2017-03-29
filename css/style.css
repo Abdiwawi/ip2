@@ -45,3 +45,11 @@ padding: 0;
 .d{
   background-image: url("../ip2/assets/foodtop/dinner.jpg");
 }
+.meals .container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.bask{
+  border:1px solid lightgrey;
+  box-shadow: rgba(0, 0, 0, 0.73);
+}
