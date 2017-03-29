@@ -25,7 +25,7 @@
 .happy{
   background-color: white;
   width: 350px;
-  height: 97px;
+  height: 95px;
   color: grey;
   text-align: center;
   border: 5px;
@@ -33,7 +33,7 @@
 .party{
   background-color: orange;
   width: 350px;
-  height: 97px;
+  height: 95px;
   color: grey;
   text-align: center;
   border: 5px;
@@ -42,7 +42,7 @@
 .breakfast{
   background-image: url("../ip2/assets/foodtop/breakfast.jpg");
   width: 350px;
-  height: 215px;
+  height: 210px;
   margin-left: 320px;
   text-align: center;
   font-size: 30px;
@@ -54,7 +54,7 @@
   background-image: url("../ip2/assets/foodtop/lunch.jpg");
   width: 350px;
   margin-left: 640px;
-  height: 215px;
+  height: 210px;
   position: absolute;
   text-align: center;
 }
@@ -62,7 +62,42 @@
   background-image: url("../ip2/assets//foodtop/dinner.jpg");
   width: 350px;
   margin-left:960px;
-  height: 215px;
+  height: 210px;
   position: absolute;
   text-align: center;
+}
+.fast{
+  margin-top: 350px;
+  width: 490px;
+  height: 190px;
+}
+.fast1{
+  width: 490px;
+  height: 190px;
+}
+.ffd{
+  margin-left: 200px;
+  width: 83%;
+  height: 210px;
+}
+.ffdtext{
+  margin-left: 660px;
+  text-align: left;
+  position: absolute;
+  float: left;
+  margin-bottom: 210px;
+}
+.drinks{
+  text-align: left;
+  position: absolute;
+  float: left;
+}
+.drink1 p{
+  column-count: 1;
+  text-align: left;
+  position: absolute
+
+}
+.drink2{
+    margin-left: 660px;
 }
