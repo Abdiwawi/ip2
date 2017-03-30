@@ -59,6 +59,7 @@ padding: 0;
   box-shadow: rgba(0, 0, 0, 0.73);
   padding: 20px;
 }
-.meals .container .row:nth-child(2);{
-  margin-top: 40px;
+.typeoffoods{
+  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+  height: auto;
 }
