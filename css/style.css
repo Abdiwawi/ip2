@@ -1,7 +1,13 @@
 .header{
   background-image: url("../ip2/assets/backgrounds/landing.jpg");
   background-size: cover;
-  color: white;
+  color: #ffffff;
+}
+.header .container{
+  padding: 14%;
+}
+.meal{
+  margin-top: 0px;
 }
 .course .row{
 margin: 0;
@@ -17,21 +23,24 @@ padding: 0;
     background: #ffffff;
     color: rgba(0, 0, 0, 0.67);
     font-size: 25px;
-    padding: 40px;
+    padding: 17px;
   }
   .party{
     position: relative;
     height:50%;
     background: orangered;
-    color: #000;
+    color: white;
     font-size: 25px;
-    padding: 40px;
+    padding: 17px;
   }
   .break{
-    position: relative;
+    position: absolute;
     height: 220px;
   }
 .foood div{
+  width: auto;
+  margin: 0px;
+  height: auto;
   color: grey;
   padding: 70px;
   font-size: 25px;
@@ -46,8 +55,9 @@ padding: 0;
   background-image: url("../ip2/assets/foodtop/dinner.jpg");
 }
 .meals .container{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
 }
 .bask{
   border:1px solid lightgrey;
@@ -62,4 +72,135 @@ padding: 0;
 .typeoffoods{
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
   height: auto;
+}
+.imagedrnk{
+  border:1px solid lightgrey;
+  box-shadow: rgba(0, 0, 0, 0.73);
+  padding: 20px;
+  margin-right: 100px;
+}
+.imagedrnk div{
+  margin: auto;
+  padding: 0;
+}
+.content{
+  background: #fff;
+  height: 350px;
+  margin:100px 0;
+  box-shadow: black ;
+}
+.tabs{
+  font-size: 35px;
+}
+.tabs div{
+  height: 70px;
+  background-color: #c9c9c9;
+  border-left: 1px solid white;
+}
+.tabs div:first-child{
+    background: #ffffff;
+    color: #fb5f1f;
+}
+.images{
+  padding: 20px 25px 0 25px;
+}
+.images div{
+  padding: 0 5px;
+}
+.HappyC{
+  background-color: white;
+  height: 350px;
+  margin: 100px 0;
+  box-shadow: black;
+  padding: : 5px;
+  border: black;
+}
+.tibs{
+  background-color: white
+  height: 350px;
+  width: 600px;
+  margin: 100px;
+  box-shadow: black;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+.tibs p{
+  color: black;
+}
+.ohc{
+  color: orangered;
+  text-align: center;
+}
+.abt{
+  color: orangered;
+}
+.fibs{
+  background-color: white;
+  height: 350px;
+  width: 500px;
+  margin: 100px 300px;
+  box-shadow: black;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+.fibs p{
+  color: black;
+  background-color: white
+}
+.abT{
+  text-align: left;
+}
+.subscribe{
+  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.subscribe h2{
+	color: #fff;
+}
+
+.subform input[type=email]{
+	background-color: rgba(255,255,255,0.2);
+	height: 40px;
+}
+input[type="email"]::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 16px;
+}
+
+.subform button{
+	width: 100%;
+	background-color: #F15A29;
+	color: #fff;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Open Sans;
+}
+
+.footer{
+	background-color: #F15A29;
+	color: white;
+}
+
+.footer h1,h2,p{
+	color: #fff;
+}
+ul{
+  display: flex;
+  text-align: center;
+  top: auto;
+  left: auto;
+}
+ul li{
+margin: 10px;
+font-size: 24px;
+}
+.Tww{
+  color: #fff;
+  margin-bottom: 5px;
 }
