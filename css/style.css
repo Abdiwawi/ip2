@@ -19,7 +19,7 @@ padding: 0;
 }
 .happy{
     position: relative;
-    height:50%;
+    height:43.75%;
     background: #ffffff;
     color: rgba(0, 0, 0, 0.67);
     font-size: 25px;
@@ -27,7 +27,7 @@ padding: 0;
   }
   .party{
     position: relative;
-    height:50%;
+    height:43.75%;
     background: orangered;
     color: white;
     font-size: 25px;
@@ -37,8 +37,15 @@ padding: 0;
     position: absolute;
     height: 220px;
   }
+  .hover img{
+    opacity: 1;
+    transition: .3s ease-in-out;
+  }
+  .hover:hover img{
+    opacity: .5;
+  }
 .foood div{
-  width: auto;
+  width: 70%;
   margin: 0px;
   height: auto;
   color: grey;
@@ -47,27 +54,38 @@ padding: 0;
 }
 .b{
   background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+  width: 337.50px;;
 }
 .l{
   background-image: url("../ip2/assets/foodtop/lunch.jpg");
+  width: 337px;
 }
 .d{
-  background-image: url("../ip2/assets/foodtop/dinner.jpg");
+  background-image: url("../ip2/assets/foodtop/dinner.jpg")
+
 }
 .meals .container{
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 200px;
+  color: black;
 }
 .bask{
   border:1px solid lightgrey;
   box-shadow: rgba(0, 0, 0, 0.73);
   padding: 20px;
+  color: black;
+}
+.bask p {
+  color: black;
 }
 .thirst{
   border:1px solid lightgrey;
   box-shadow: rgba(0, 0, 0, 0.73);
   padding: 20px;
+}
+.drinks p {
+  color: black;
 }
 .typeoffoods{
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
@@ -115,17 +133,17 @@ padding: 0;
   padding: : 5px;
   border: black;
 }
-.tibs{
+.cont{
   background-color: white
   height: 350px;
-  width: 600px;
+  width: 80%;
   margin: 100px;
-  box-shadow: black;
-  padding: 10px;
+  box-shadow: 1px -1px 12px 7px rgba(181,177,181,1);
+  padding: 25px;
   text-align: center;
   color: black;
 }
-.tibs p{
+.cont p{
   color: black;
 }
 .ohc{
@@ -134,6 +152,7 @@ padding: 0;
 }
 .abt{
   color: orangered;
+  text-align: justify;
 }
 .fibs{
   background-color: white;
@@ -145,9 +164,12 @@ padding: 0;
   text-align: center;
   color: black;
 }
+.ffd p{
+  color:black;
+}
 .fibs p{
   color: black;
-  background-color: white
+  background-color:
 }
 .abT{
   text-align: left;
@@ -174,12 +196,13 @@ input[type="email"]::-webkit-input-placeholder {
 
 .subform button{
 	width: 100%;
-	background-color: #F15A29;
-	color: #fff;
+	background-color: orange;
+	color: orange;
 	height: 40px;
 	font-size: 16px;
 	font-weight: 400;
 	font-family: Open Sans;
+  colo
 }
 
 .footer{
@@ -203,4 +226,12 @@ font-size: 24px;
 .Tww{
   color: #fff;
   margin-bottom: 5px;
+}
+.col{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.subscribe .h2{
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
